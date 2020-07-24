@@ -1,10 +1,14 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import React from 'react'
+import * as S from './styles'
 
 interface Props {
-  text: string
+  color: string
 }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export const BouncingLoader: React.FC<Props> = ({ color }) => (
+  <S.Container>
+    <S.Ball color={color} />
+    <S.Ball color={color} margin />
+    <S.Ball color={color} />
+  </S.Container>
+)

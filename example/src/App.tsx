@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from '@jandersonmartins/bouncing-loader'
+import { BouncingLoader } from '@jandersonmartins/bouncing-loader'
 import '@jandersonmartins/bouncing-loader/dist/index.css'
 
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+const App = () =>
+  <BouncingLoader color="#3700B3" />
 
 export default App

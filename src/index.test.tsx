@@ -1,7 +1,11 @@
-import { ExampleComponent } from '.'
+import React from 'react'
+import '@testing-library/jest-dom/extend-expect'
+import 'jest-styled-components'
+import { render } from '@testing-library/react'
+import { BouncingLoader } from '.'
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
+test('should render correctly', () => {
+  const { container } = render(<BouncingLoader color='#3700B3' />)
+
+  expect(container.firstChild).toMatchSnapshot()
 })
