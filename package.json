@@ -8,6 +8,12 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "private": false,
+  "keywords": [
+    "boucing",
+    "loader",
+    "loading"
+  ],
   "engines": {
     "node": ">=10"
   },
