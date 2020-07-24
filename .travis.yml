@@ -8,3 +8,11 @@ install:
 
 script:
   - yarn test
+
+deploy:
+  provider: npm
+  email: "jandersonmartins10@gmail.com"
+  api_key: "$NPM_TOKEN"
+  skip_cleanup: true
+  on:
+    branch: master
