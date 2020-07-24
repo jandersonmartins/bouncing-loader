@@ -2,7 +2,7 @@
 
 > React bouncing loader component
 
-[![NPM](https://img.shields.io/npm/v/@jandersonmartins/bouncing-loader.svg)](https://www.npmjs.com/package/@jandersonmartins/bouncing-loader) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Build Status](https://travis-ci.org/jandersonmartins/bouncing-loader.svg?branch=master)](https://travis-ci.org/jandersonmartins/bouncing-loader) [![NPM](https://img.shields.io/npm/v/@jandersonmartins/bouncing-loader.svg)](https://www.npmjs.com/package/@jandersonmartins/bouncing-loader) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
