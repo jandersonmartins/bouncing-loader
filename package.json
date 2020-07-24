@@ -9,6 +9,9 @@
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "boucing",
     "loader",
