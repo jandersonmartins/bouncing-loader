@@ -6,23 +6,27 @@
 
 ## Install
 
+using npm:
+
 ```bash
 npm install --save @jandersonmartins/bouncing-loader
+```
+
+using yarn:
+
+```bash
+yarn add @jandersonmartins/bouncing-loader
 ```
 
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
+import BouncingLoader from '@jandersonmartins/bouncing-loader'
 
-import MyComponent from '@jandersonmartins/bouncing-loader'
-import '@jandersonmartins/bouncing-loader/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const Example = () => (
+  <BouncingLoader color="#3700B3" />
+)
 ```
 
 ## License
