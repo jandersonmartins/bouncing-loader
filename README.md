@@ -22,7 +22,7 @@ yarn add @jandersonmartins/bouncing-loader
 
 ```tsx
 import React from 'react'
-import BouncingLoader from '@jandersonmartins/bouncing-loader'
+import { BouncingLoader } from '@jandersonmartins/bouncing-loader'
 
 const Example = () => (
   <BouncingLoader color="#3700B3" />
