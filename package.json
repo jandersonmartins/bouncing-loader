@@ -1,6 +1,6 @@
 {
   "name": "@jandersonmartins/bouncing-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React bouncing loader component",
   "author": "jandersonmartins",
   "license": "MIT",
@@ -33,6 +33,10 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
+    "react": "^16.0.0",
+    "styled-components": "^5.1.1"
+  },
+  "dependencies": {
     "react": "^16.0.0",
     "styled-components": "^5.1.1"
   },
